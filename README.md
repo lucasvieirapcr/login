@@ -9,7 +9,7 @@ link: https://login-blond-six.vercel.app/
 2- Pegue o caminho dessa pasta. EX: C:\Users\USUARIO\Desktop\clone<br/>
 3- Abra seu Prompt de Comando e digite "cd" com o caminho da pasta do clone e de enter. EX: cd C:\Users\USUARIO\Desktop\clone<br/>
 4- Em seguida, digite "git clone https://github.com/lucasvieirapcr/login.git" e de enter.<br/>
-5- Pronto, agora entre na pasta clone e dentro dela estará a pasta "login", entre nela e copie de novo o caminho(coloque "\login" no final) e de enter. 
+5- Pronto, agora entre na pasta clone e dentro dela estará a pasta "login", entre nela e copie de novo o caminho(coloque "\login" no final) e de enter. <br/>
 EX: C:\Users\USUARIO\Desktop\clone\login<br/>
 6- Escreva no Prompt "cd C:\Users\USUARIO\Desktop\clone\login" e de enter.<br/>
 7- Depois digite "npm install" e de enter, espere o dowload das dependências.<br/>
