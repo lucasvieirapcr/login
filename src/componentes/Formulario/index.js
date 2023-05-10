@@ -50,8 +50,8 @@ const Formulario = () => {
 
                 <div className='fundoErro'>
 
-                    { (emptyValue && form["email"] === "") || (emptyValue && form["senha"]  === "") ? <div className='message'><h1>Preencha os campos para a validação</h1></div> : ""}
-                    { !validEmail && form["email"] !== ""  ? <div className='message'><h1>Por favor, insira um e-mail válido</h1></div> : ""}
+                    { (emptyValue && form["email"] === "") || (emptyValue && form["senha"]  === "") || (!validEmail && form["email"] !== "")? <span className='message'><h2>Algo está errado, tente novamente</h2></span> : ""}
+                    
                 </div> 
                 
                 <form onSubmit={(event) => {handleSubmit(event)}}>
