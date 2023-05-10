@@ -41,7 +41,7 @@ const Formulario = () => {
                 <h1 className='boas-vindas'>Bem-vindo</h1>
                 <div>
                     <h2 style={{fontWeight: 'bold', fontSize: '28px', marginBottom: '2px'}}>Crie sua conta</h2>
-                    <p style={{fontWeight: 'bold'}}>Faça seu cadastro agora</p>
+                    <p style={{fontWeight: 'bold', fontSize :'15px'}}>Faça seu cadastro agora</p>
                     <button style={{boxSizing: 'border-box'}} className='cadastrar'>Cadastrar</button>
                 </div>
                 
@@ -50,7 +50,7 @@ const Formulario = () => {
 
                 <div className='fundoErro'>
 
-                    { (emptyValue && form["email"] === "") || (emptyValue && form["senha"]  === "") || (!validEmail && form["email"] !== "")? <span className='message' style={{color: "#FFF"}}><h2>Algo está errado, tente novamente</h2></span> : ""}
+                    { (emptyValue && form["email"] === "") || (emptyValue && form["senha"]  === "") || (!validEmail && form["email"] !== "")? <span className='message'><h2>Algo está errado, tente novamente</h2></span> : ""}
                     
                 </div> 
                 
