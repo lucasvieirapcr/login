@@ -83,11 +83,12 @@ input{
     position:absolute;
     display: block;
     margin-left: 120px;
-    margin-top: -30px;
+    margin-top: -35px;
     border-radius: 15px;
     height: auto;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.7);
     align-items: center;
+    padding: 10px;
 }
 
 .message{
