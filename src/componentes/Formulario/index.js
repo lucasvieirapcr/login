@@ -50,7 +50,7 @@ const Formulario = () => {
 
                 <div className='fundoErro'>
 
-                    { (emptyValue && form["email"] === "") || (emptyValue && form["senha"]  === "") || (!validEmail && form["email"] !== "")? <span className='message'><h2>Algo está errado, tente novamente</h2></span> : ""}
+                    { (emptyValue && form["email"] === "") || (emptyValue && form["senha"]  === "") || (!validEmail && form["email"] !== "")? <span className='message' style={{color: "#FFF"}><h2>Algo está errado, tente novamente</h2></span> : ""}
                     
                 </div> 
                 
