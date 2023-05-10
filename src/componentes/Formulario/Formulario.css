@@ -1,0 +1,58 @@
+.centro{
+    display: flex;
+    margin: auto;
+    max-width: 944px;
+    height: 553px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+}
+
+.lado-direito{
+    background-color: #FC5364;
+    color: #FFF;
+    width: 244px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.boas-vindas{
+    font-weight: bold;
+    font-size: 39px;
+    padding: 40px 5px 90px 5px;
+}
+
+.lado-esquerdo{
+    background-color: #FFF;
+    width: 700px;
+    height: auto;
+    border-radius: 0px 16px 16px 0;
+}
+
+.cadastrar{
+    margin-top: 87px;
+    border: 3px solid #FFF;
+    color: #FFF;
+    border-radius: 30px;
+    width: 176px;
+    height: 60px;
+    background-color: #FC5364;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.cadastrar:hover{
+    background-color: #FFF;
+    color: #FC5364;
+}
+
+.lado-esquerdo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-pequena{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
