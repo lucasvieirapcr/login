@@ -15,6 +15,6 @@ EX: C:\Users\USUARIO\Desktop\clone\login<br/>
 7- Depois digite "npm install" e de enter, espere o dowload das dependências.<br/>
 8- Após o dowload, digite "npm start" e de enter.
 <br/>
-Espere um pouco que ele já ira abrir no seu navegador.
+Espere um pouco que ele já vai abrir no seu navegador.
 
 # Espero que eu tenha conseguido deixar detalhado e também espero que gostem
