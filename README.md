@@ -4,6 +4,9 @@ Projeto feito com React e com o layout do Figma do zero, inspirado na empresa Vo
 # Caso queira ver o deploy do projeto (Não vai precisar fazer os passos de como rodar o código):
 link: https://login-blond-six.vercel.app/
 
+# Link do projeto no Figma
+link: https://www.figma.com/file/ov5C8y8gwqe48geyVU1kTc/Untitled?type=design&node-id=1%3A2&t=YDSayUHsIeobaV5d-1
+
 # Como rodar o código ?
 1- Primeiro crie uma pasta com o nome "clone" na sua área de trabalho <br/>
 2- Pegue o caminho dessa pasta. EX: C:\Users\USUARIO\Desktop\clone<br/>
